@@ -1,0 +1,20 @@
+
+.nav-link:hover
+{
+    border-bottom:3px solid rgb(155, 13, 155);
+}
+.nav-link{
+    color: black;
+}
+.navbar{
+    height: 120px;
+}
+.navbar img
+{
+    width: 80%;
+}
+#purple
+{
+    color: rgb(155, 13, 155);
+    border-bottom:3px solid rgb(155, 13, 155);
+}
