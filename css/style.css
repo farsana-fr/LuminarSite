@@ -1,10 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Questrial&display=swap");
+body {
+  height: 1800px;
+}
 .nav-link:hover {
-  border-bottom: 3px solid rgb(169, 67, 169);
+  border-bottom: 3px solid rgb(73, 14, 73);
 }
 .nav-link {
   color: black;
 }
 #current {
-  color: rgb(169, 67, 169);
-  border-bottom: 3px solid rgb(169, 67, 169);
+  color: rgb(73, 14, 73);
+  border-bottom: 3px solid rgb(73, 14, 73);
+}
+.navbar {
+  height: 70px;
+  clear: both;
+}
+.announce {
+  background-color: rgb(73, 14, 73);
+}
+.left {
+  float: left;
+}
+.carous {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+.carous img {
+  opacity: 0.4;
+  height: 700px;
+}
+.carousel-caption {
+  top: 10%;
+  text-align: left;
+}
+.btn {
+  background-color: rgb(73, 14, 73);
+  color: #ffffff;
+}
+.btn:hover {
+  background-color: rgb(73, 14, 73);
+  color: #ffffff;
+  opacity: 0.6;
 }
