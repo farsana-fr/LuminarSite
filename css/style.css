@@ -34,6 +34,9 @@ body {
   top: 10%;
   text-align: left;
 }
+.carousel-caption button {
+  border-radius: 20px;
+}
 .btn {
   background-color: purple;
   color: #ffffff;
