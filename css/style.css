@@ -40,12 +40,14 @@ h1 {
   text-align: left;
 }
 .btn-r {
-  border-radius: 20px;
+  border-radius: 50px;
 }
-.btn-info {
+.btn {
   background-color: purple;
   color: #ffffff;
+  padding: 20px 40px;
 }
+
 .btn:hover {
   background-color: purple;
   color: #ffffff;
