@@ -1,6 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800;1000&family=Poppins:wght@500;900&family=Questrial&display=swap");
 body {
   height: 1800px;
+  font-family: "Mulish", sans-serif;
+}
+h1 {
+  font-size: 60px;
+}
+.text-purple {
+  color: purple;
 }
 .nav-link:hover {
   border-bottom: 3px solid purple;
@@ -23,7 +30,6 @@ body {
 }
 .carous {
   background-color: black;
-  font-family: "Poppins", sans-serif;
 }
 .carous img {
   opacity: 0.4;
@@ -33,7 +39,7 @@ body {
   top: 10%;
   text-align: left;
 }
-.carousel-caption button {
+.btn-r {
   border-radius: 20px;
 }
 .btn-info {
