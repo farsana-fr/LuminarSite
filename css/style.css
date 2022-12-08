@@ -73,8 +73,15 @@ h1 {
     font-size: small;
   }
 }
+.card,
+.card .btn {
+  border-radius: 0px;
+}
 .card .btn {
   padding: 10px;
+}
+.card img {
+  border-radius: 0px;
 }
 .card:hover {
   box-shadow: 12px 0 15px -4px rgba(144, 142, 144, 0.8),
