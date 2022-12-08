@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800;1000&family=Poppins:wght@500;900&family=Questrial&display=swap");
 body {
-  height: 1800px;
+  height: 2700px;
   font-family: "Mulish", sans-serif;
 }
 h1 {
@@ -52,4 +52,31 @@ h1 {
   background-color: purple;
   color: #ffffff;
   opacity: 0.6;
+}
+.text-lightPurple {
+  opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption {
+    font-size: medium;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+}
+@media (max-width: 500px) {
+  .carousel-caption {
+    font-size: small;
+  }
+  h1 {
+    font-size: small;
+  }
+}
+.card .btn {
+  padding: 10px;
+}
+.card:hover {
+  box-shadow: 12px 0 15px -4px rgba(144, 142, 144, 0.8),
+    -12px 0 8px -4px rgba(144, 142, 144, 0.8);
 }
