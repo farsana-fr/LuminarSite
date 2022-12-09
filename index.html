@@ -24,7 +24,7 @@
     ></script>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="bg-light">
+  <body>
     <!-- responsive code -->
     <header class="announce">
       <div class="container text-white">
@@ -322,13 +322,18 @@ Comments</textarea
       </div>
     </div>
     <div class="ourCourses">
-      <h3 class="text-center mt-5 mb-3 fw-bold text-purple">
+      <h3 class="text-center mt-5 mb-5 fw-bold text-purple">
         OUR <span class="text-lightPurple">COURSES</span>
       </h3>
-      <div class="container w-75 bg-white">
+      <div class="container w-75 bg-white movement">
         <div class="row">
           <div class="col-lg-6">
-            <img src="./images/ourCourses.jpg" alt="" class="w-100" />
+            <img
+              src="./images/ourCourses.jpg"
+              alt=""
+              height="100%"
+              width="100%"
+            />
           </div>
           <div class="col-lg-6 p-4">
             <h5 class="text-uppercase fw-semibold text-purple">
@@ -340,11 +345,13 @@ Comments</textarea
               Science, Artificial Intelligence, Tableau, AWS Cloud.
             </p>
             <ul class="fw-semibold list-unstyled">
-              <li>
+              <li class="pt-3">
                 📅 Next Batch : Jan 03<sup>rd</sup> 2022 (09:30 am - 11:30 am)
               </li>
-              <li>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day</li>
-              <li>
+              <li class="pt-3">
+                ⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day
+              </li>
+              <li class="pt-3">
                 🧑🏫Course Fees:
                 <a href="" class="text-purple text-uppercase">View More</a>
               </li>
@@ -356,7 +363,7 @@ Comments</textarea
     <div class="courseCards container w-75 mt-5">
       <div class="row">
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card border border-0 movement">
             <img
               src="./images/card0.jpg"
               class="card-img-top"
@@ -376,7 +383,7 @@ Comments</textarea
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card border border-0 movement">
             <img
               src="./images/card1.jpg"
               class="card-img-top"
@@ -397,7 +404,7 @@ Comments</textarea
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card border border-0 movement">
             <img
               src="./images/card2.jpg"
               class="card-img-top"
@@ -417,6 +424,11 @@ Comments</textarea
           </div>
         </div>
       </div>
+    </div>
+    <div class="viewAll text-center mt-5 mb-3">
+      <button class="btn btn-outline-info btn-r fw-semibold">
+        View all Courses
+      </button>
     </div>
   </body>
 </html>
